@@ -352,6 +352,10 @@ ul {
 
 /* ---------------Poertfolio Page---------------*/
 
+.portfolio-main-section {
+  padding: 96px 0 120px 0;
+}
+
 .portfolio-buttons-wrap {
   display: flex;
   justify-content: center;
@@ -400,8 +404,8 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  column-gap: 48px;
-  row-gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
   padding-bottom: 120px;
 }
 
