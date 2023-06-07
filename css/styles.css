@@ -67,6 +67,10 @@ ul {
   margin: 0 auto;
 }
 
+.section {
+  padding-bottom: 120px;
+}
+
 /* -----------------Header---------------------*/
 
 .header {
@@ -224,7 +228,6 @@ ul {
 
 .about-us-section {
   padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .about-us-wrap {
@@ -254,10 +257,6 @@ ul {
 
 /* ---------------Studio What We Do---------------*/
 
-.we-doing-section {
-  padding-bottom: 120px;
-}
-
 .we-doing-head {
   font-weight: 700;
   font-size: 36px;
@@ -282,7 +281,6 @@ ul {
 
 .our-team-section {
   background-color: #f4f4fd;
-  padding-bottom: 120px;
 }
 
 .our-team-head {
@@ -330,10 +328,6 @@ ul {
 
 /* ---------------Poertfolio Page---------------*/
 
-.portfolio-container {
-  padding-top: 95px;
-}
-
 .portfolio-filter-button {
   color: #4d5ae5;
   background-color: #f4f4fd;
@@ -353,6 +347,7 @@ ul {
   display: flex;
   justify-content: center;
   margin-bottom: 72px;
+  padding-top: 95px;
   gap: 24px;
 }
 
