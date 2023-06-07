@@ -31,6 +31,10 @@ h6 {
   margin: 0;
 }
 
+.block-images {
+  display: block;
+}
+
 ul {
   margin-top: 0;
   margin-bottom: 0;
@@ -68,6 +72,7 @@ ul {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -100,6 +105,8 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-link:hover {
@@ -128,6 +135,8 @@ ul {
   letter-spacing: 0.02em;
   font-style: normal;
   color: #434455;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .contact-link:hover {
   color: #404bbf;
@@ -273,6 +282,7 @@ ul {
 
 .our-team-section {
   background-color: #f4f4fd;
+  padding-bottom: 120px;
 }
 
 .our-team-head {
@@ -288,6 +298,13 @@ ul {
 
 .team-list {
   display: flex;
+  gap: 24px;
+  flex-basis: ((100% - 3 * 24px) / 4);
+  margin-top: 72px;
+}
+
+.team-wrap {
+  margin: 32px 16px;
 }
 
 .our-team-item {
@@ -313,6 +330,10 @@ ul {
 
 /* ---------------Poertfolio Page---------------*/
 
+.portfolio-container {
+  padding-top: 95px;
+}
+
 .portfolio-filter-button {
   color: #4d5ae5;
   background-color: #f4f4fd;
@@ -323,16 +344,41 @@ ul {
   text-align: center;
   letter-spacing: 0.04em;
   cursor: pointer;
+  padding: 12px 24px;
+  border: 0;
+  border-radius: 4px;
+}
+
+.portfolio-buttons-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 72px;
+  gap: 24px;
 }
 
 .portfolio-filter-button:hover {
   color: #ffffff;
   background-color: #404bbf;
+  border-radius: 4px;
+  border: 0;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-filter-button:focus {
   color: #ffffff;
   background-color: #404bbf;
+  border: 0;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.portfolio-project-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 48px 24px;
+  padding-bottom: 120px;
 }
 
 .portfolio-project-subhead {
@@ -341,6 +387,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin: 32px auto 8px 16px;
 }
 
 .portfolio-project-text {
@@ -348,4 +395,12 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin: 0 auto 32px 16px;
+}
+
+.portfolio-item-wrap {
+  border-bottom: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  padding-top: 32px;
 }
