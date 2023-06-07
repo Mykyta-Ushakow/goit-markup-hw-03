@@ -360,7 +360,6 @@ ul {
   display: flex;
   justify-content: center;
   margin-bottom: 72px;
-  padding-top: 95px;
   gap: 24px;
 }
 
@@ -406,7 +405,6 @@ ul {
   justify-content: center;
   column-gap: 24px;
   row-gap: 48px;
-  padding-bottom: 120px;
 }
 
 .portfolio-item-wrap {
