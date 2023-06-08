@@ -193,11 +193,7 @@ ul {
 
 .hero-section {
   background-color: #2e2f42;
-  display: flex;
   padding: 188px 0;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .hero-head {
@@ -208,10 +204,9 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   line-height: 1.07;
-  width: 100%;
   max-width: 496px;
   margin-bottom: 48px;
-  margin-top: 188px;
+  margin: 0 auto;
 }
 
 .studio-hero-button {
@@ -232,7 +227,7 @@ ul {
   gap: 10px;
   border: none;
   display: block;
-  margin-bottom: 188px;
+  margin: 0 auto;
   min-width: 169px;
   height: 56px;
 }
@@ -319,8 +314,6 @@ ul {
 .team-list {
   display: flex;
   gap: 24px;
-  flex-basis: ((100% - 3 * 24px) / 4);
-  margin-top: 72px;
 }
 
 .team-wrap {
